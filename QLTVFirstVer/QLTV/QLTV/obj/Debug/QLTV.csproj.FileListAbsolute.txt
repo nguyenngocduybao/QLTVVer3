@@ -1,0 +1,6 @@
+D:\QLTVVer2\FirstVer29062018\QLTV\Desktop\bin\Debug\Desktop.exe.config
+D:\QLTVVer2\FirstVer29062018\QLTV\Desktop\obj\Debug\Desktop.exe
+D:\QLTVVer2\FirstVer29062018\QLTV\Desktop\obj\Debug\Desktop.pdb
+D:\QLTVVer2\FirstVer29062018\QLTV\QLTV\bin\Debug\Desktop.exe.config
+D:\QLTVVer2\FirstVer29062018\QLTV\QLTV\obj\Debug\Desktop.exe
+D:\QLTVVer2\FirstVer29062018\QLTV\QLTV\obj\Debug\Desktop.pdb
