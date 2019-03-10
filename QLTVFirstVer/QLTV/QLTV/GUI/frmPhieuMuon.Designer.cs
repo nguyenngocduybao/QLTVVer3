@@ -206,7 +206,6 @@
             this.btn_TimSach.Size = new System.Drawing.Size(108, 33);
             this.btn_TimSach.TabIndex = 29;
             this.btn_TimSach.Text = "Tìm sách";
-            this.btn_TimSach.Click += new System.EventHandler(this.btn_TimSach_Click);
             // 
             // btn_XoaSachRaKhoiList
             // 
@@ -215,7 +214,6 @@
             this.btn_XoaSachRaKhoiList.Size = new System.Drawing.Size(108, 31);
             this.btn_XoaSachRaKhoiList.TabIndex = 28;
             this.btn_XoaSachRaKhoiList.Text = "Xóa khỏi danh sách";
-            this.btn_XoaSachRaKhoiList.Click += new System.EventHandler(this.btn_XoaSachRaKhoiList_Click);
             // 
             // btn_ChonSachVaoList
             // 
@@ -224,7 +222,6 @@
             this.btn_ChonSachVaoList.Size = new System.Drawing.Size(108, 26);
             this.btn_ChonSachVaoList.TabIndex = 27;
             this.btn_ChonSachVaoList.Text = "Chọn sách";
-            this.btn_ChonSachVaoList.Click += new System.EventHandler(this.btn_ChonSachVaoList_Click);
             // 
             // listbox_TenDauSach
             // 
@@ -286,8 +283,6 @@
             this.tb_TenDauSach.Name = "tb_TenDauSach";
             this.tb_TenDauSach.Size = new System.Drawing.Size(258, 30);
             this.tb_TenDauSach.TabIndex = 23;
-            this.tb_TenDauSach.TextChanged += new System.EventHandler(this.tb_TenDauSach_TextChanged);
-            this.tb_TenDauSach.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_PhieuMuon_KeyPress);
             // 
             // dt_NgayMuon
             // 
@@ -296,7 +291,6 @@
             this.dt_NgayMuon.Name = "dt_NgayMuon";
             this.dt_NgayMuon.Size = new System.Drawing.Size(258, 30);
             this.dt_NgayMuon.TabIndex = 22;
-            this.dt_NgayMuon.ValueChanged += new System.EventHandler(this.dt_NgaySinh_ValueChanged);
             // 
             // label1
             // 
@@ -315,7 +309,6 @@
             this.tb_TenNguoiMuon.Name = "tb_TenNguoiMuon";
             this.tb_TenNguoiMuon.Size = new System.Drawing.Size(258, 30);
             this.tb_TenNguoiMuon.TabIndex = 20;
-            this.tb_TenNguoiMuon.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_TenTacGia_KeyPress);
             // 
             // label2
             // 
@@ -340,7 +333,6 @@
             this.bt_Lamlai.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.bt_Lamlai.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_Lamlai.UseVisualStyleBackColor = true;
-            this.bt_Lamlai.Click += new System.EventHandler(this.bt_Lamlai_Click);
             // 
             // bt_CNDL
             // 
@@ -354,7 +346,6 @@
             this.bt_CNDL.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.bt_CNDL.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_CNDL.UseVisualStyleBackColor = true;
-            this.bt_CNDL.Click += new System.EventHandler(this.bt_CNDL_Click);
             // 
             // navigationPage1
             // 
@@ -543,7 +534,6 @@
             this.toolStripBt_XuatCSV.Name = "toolStripBt_XuatCSV";
             this.toolStripBt_XuatCSV.Size = new System.Drawing.Size(107, 28);
             this.toolStripBt_XuatCSV.Text = "Xuất CSV";
-            this.toolStripBt_XuatCSV.Click += new System.EventHandler(this.toolStripBt_XuatCSV_Click);
             // 
             // toolStripSeparator4
             // 
@@ -642,7 +632,6 @@
             this.Controls.Add(this.navigationPane1);
             this.Name = "frmPhieuMuon";
             this.Text = "Phiếu mượn";
-            this.Load += new System.EventHandler(this.frmPhieuMuon_Load);
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).EndInit();
             this.navigationPane1.ResumeLayout(false);
             this.navigationPage2.ResumeLayout(false);

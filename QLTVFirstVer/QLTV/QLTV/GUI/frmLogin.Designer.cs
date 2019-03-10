@@ -46,7 +46,6 @@
             this.tb_user.Size = new System.Drawing.Size(452, 68);
             this.tb_user.TabIndex = 0;
             this.tb_user.Text = "Username";
-            this.tb_user.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tb_user_MouseClick);
             // 
             // tb_passwork
             // 
@@ -60,8 +59,6 @@
             this.tb_passwork.Size = new System.Drawing.Size(452, 64);
             this.tb_passwork.TabIndex = 1;
             this.tb_passwork.Text = "Passwork";
-            this.tb_passwork.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tb_passwork_MouseClick);
-            this.tb_passwork.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb_passwork_KeyDown);
             // 
             // btn_login
             // 
@@ -73,7 +70,6 @@
             this.btn_login.Size = new System.Drawing.Size(149, 66);
             this.btn_login.TabIndex = 3;
             this.btn_login.UseVisualStyleBackColor = false;
-            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
             // frmLogin
             // 
@@ -91,7 +87,6 @@
             this.Name = "frmLogin";
             this.Tag = "";
             this.Text = "Login";
-            this.Load += new System.EventHandler(this.frmLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -187,7 +187,6 @@
             this.dt_NgayNhap.Name = "dt_NgayNhap";
             this.dt_NgayNhap.Size = new System.Drawing.Size(292, 30);
             this.dt_NgayNhap.TabIndex = 4;
-            this.dt_NgayNhap.ValueChanged += new System.EventHandler(this.dt_NgayNhap_ValueChanged);
             // 
             // label
             // 
@@ -217,7 +216,6 @@
             this.btn_ThemLoaiSach.Size = new System.Drawing.Size(91, 28);
             this.btn_ThemLoaiSach.TabIndex = 34;
             this.btn_ThemLoaiSach.Text = "Thêm loại sách";
-            this.btn_ThemLoaiSach.Click += new System.EventHandler(this.btn_ThemLoaiSach_Click);
             // 
             // cbb_TheLoaiSach
             // 
@@ -236,7 +234,6 @@
             this.tb_TenTacGia.Name = "tb_TenTacGia";
             this.tb_TenTacGia.Size = new System.Drawing.Size(292, 30);
             this.tb_TenTacGia.TabIndex = 3;
-            this.tb_TenTacGia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_TenTacGia_KeyPress);
             // 
             // label1
             // 
@@ -255,7 +252,6 @@
             this.tb_DonGia.Name = "tb_DonGia";
             this.tb_DonGia.Size = new System.Drawing.Size(292, 30);
             this.tb_DonGia.TabIndex = 9;
-            this.tb_DonGia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_DonGia_KeyPress);
             // 
             // tb_TenDauSach
             // 
@@ -263,7 +259,6 @@
             this.tb_TenDauSach.Name = "tb_TenDauSach";
             this.tb_TenDauSach.Size = new System.Drawing.Size(292, 30);
             this.tb_TenDauSach.TabIndex = 1;
-            this.tb_TenDauSach.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_TenDauSach_KeyPress);
             // 
             // label3
             // 
@@ -293,7 +288,6 @@
             this.tb_SoLuong.Name = "tb_SoLuong";
             this.tb_SoLuong.Size = new System.Drawing.Size(292, 30);
             this.tb_SoLuong.TabIndex = 8;
-            this.tb_SoLuong.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_SoLuong_KeyPress);
             // 
             // tb_NhaXuatBan
             // 
@@ -303,7 +297,6 @@
             this.tb_NhaXuatBan.Name = "tb_NhaXuatBan";
             this.tb_NhaXuatBan.Size = new System.Drawing.Size(292, 30);
             this.tb_NhaXuatBan.TabIndex = 5;
-            this.tb_NhaXuatBan.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_NhaXuatBan_KeyPress);
             // 
             // label14
             // 
@@ -344,7 +337,6 @@
             this.tb_GiaTien.Name = "tb_GiaTien";
             this.tb_GiaTien.Size = new System.Drawing.Size(292, 30);
             this.tb_GiaTien.TabIndex = 7;
-            this.tb_GiaTien.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_GiaTien_KeyPress);
             // 
             // label18
             // 
@@ -380,7 +372,6 @@
             this.bt_Lamlai.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.bt_Lamlai.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_Lamlai.UseVisualStyleBackColor = true;
-            this.bt_Lamlai.Click += new System.EventHandler(this.bt_Lamlai_Click);
             // 
             // bt_CNDL
             // 
@@ -394,7 +385,6 @@
             this.bt_CNDL.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.bt_CNDL.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_CNDL.UseVisualStyleBackColor = true;
-            this.bt_CNDL.Click += new System.EventHandler(this.bt_CNDL_Click);
             // 
             // navigationPage1
             // 
@@ -434,7 +424,6 @@
             this.bt_TimKiem.Text = "Tìm kiếm";
             this.bt_TimKiem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_TimKiem.UseVisualStyleBackColor = true;
-            this.bt_TimKiem.Click += new System.EventHandler(this.bt_TimKiem_Click);
             // 
             // tb_NhapTT
             // 
@@ -583,7 +572,6 @@
             this.toolStripBt_XuatCSV.Name = "toolStripBt_XuatCSV";
             this.toolStripBt_XuatCSV.Size = new System.Drawing.Size(107, 28);
             this.toolStripBt_XuatCSV.Text = "Xuất CSV";
-            this.toolStripBt_XuatCSV.Click += new System.EventHandler(this.toolStripBt_XuatCSV_Click);
             // 
             // toolStripSeparator4
             // 
@@ -725,7 +713,6 @@
             this.Controls.Add(this.navigationPane1);
             this.Name = "frmSach";
             this.Text = "Sách";
-            this.Load += new System.EventHandler(this.frmSach_Load);
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).EndInit();
             this.navigationPane1.ResumeLayout(false);
             this.navigationPage2.ResumeLayout(false);

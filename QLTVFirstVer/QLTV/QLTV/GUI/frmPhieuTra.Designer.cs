@@ -163,7 +163,6 @@
             this.btn_ChonSachVaoList.Size = new System.Drawing.Size(108, 26);
             this.btn_ChonSachVaoList.TabIndex = 27;
             this.btn_ChonSachVaoList.Text = "Chọn sách";
-            this.btn_ChonSachVaoList.Click += new System.EventHandler(this.btn_ChonSachVaoList_Click);
             // 
             // listbox_TenDauSach
             // 
@@ -205,7 +204,6 @@
             this.dt_NgayTra.Name = "dt_NgayTra";
             this.dt_NgayTra.Size = new System.Drawing.Size(258, 30);
             this.dt_NgayTra.TabIndex = 22;
-            this.dt_NgayTra.ValueChanged += new System.EventHandler(this.dt_NgayTra_ValueChanged);
             // 
             // label1
             // 
@@ -224,8 +222,6 @@
             this.tb_TenNguoiTra.Name = "tb_TenNguoiTra";
             this.tb_TenNguoiTra.Size = new System.Drawing.Size(258, 30);
             this.tb_TenNguoiTra.TabIndex = 20;
-            this.tb_TenNguoiTra.TextChanged += new System.EventHandler(this.tb_TenNguoiMuon_TextChanged);
-            this.tb_TenNguoiTra.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_TenNguoiMuon_KeyPress);
             // 
             // label2
             // 
@@ -250,7 +246,6 @@
             this.bt_Lamlai.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.bt_Lamlai.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_Lamlai.UseVisualStyleBackColor = true;
-            this.bt_Lamlai.Click += new System.EventHandler(this.bt_Lamlai_Click);
             // 
             // bt_CNDL
             // 
@@ -450,7 +445,6 @@
             this.toolStripBt_XuatCSV.Name = "toolStripBt_XuatCSV";
             this.toolStripBt_XuatCSV.Size = new System.Drawing.Size(107, 28);
             this.toolStripBt_XuatCSV.Text = "Xuất CSV";
-            this.toolStripBt_XuatCSV.Click += new System.EventHandler(this.toolStripBt_XuatCSV_Click);
             // 
             // toolStripSeparator4
             // 
@@ -557,7 +551,6 @@
             this.Controls.Add(this.navigationPane1);
             this.Name = "frmPhieuTra";
             this.Text = "Phiếu trả";
-            this.Load += new System.EventHandler(this.frmPhieuTra_Load);
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).EndInit();
             this.navigationPane1.ResumeLayout(false);
             this.navigationPage2.ResumeLayout(false);

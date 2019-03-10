@@ -183,7 +183,6 @@
             this.tb_HoTenDG.Name = "tb_HoTenDG";
             this.tb_HoTenDG.Size = new System.Drawing.Size(314, 30);
             this.tb_HoTenDG.TabIndex = 0;
-            this.tb_HoTenDG.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_HoTenDG_KeyPress);
             // 
             // tb_Passwork
             // 
@@ -227,7 +226,6 @@
             this.bt_Lamlai.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.bt_Lamlai.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_Lamlai.UseVisualStyleBackColor = true;
-            this.bt_Lamlai.Click += new System.EventHandler(this.bt_Lamlai_Click);
             // 
             // bt_CNDL
             // 
@@ -241,7 +239,6 @@
             this.bt_CNDL.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.bt_CNDL.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_CNDL.UseVisualStyleBackColor = true;
-            this.bt_CNDL.Click += new System.EventHandler(this.bt_CNDL_Click);
             // 
             // dt_NgayLT
             // 
@@ -250,7 +247,6 @@
             this.dt_NgayLT.Name = "dt_NgayLT";
             this.dt_NgayLT.Size = new System.Drawing.Size(314, 30);
             this.dt_NgayLT.TabIndex = 13;
-            this.dt_NgayLT.ValueChanged += new System.EventHandler(this.dt_NgayLT_ValueChanged);
             // 
             // cb_LoaiDocGia
             // 
@@ -263,7 +259,6 @@
             this.cb_LoaiDocGia.Name = "cb_LoaiDocGia";
             this.cb_LoaiDocGia.Size = new System.Drawing.Size(314, 31);
             this.cb_LoaiDocGia.TabIndex = 12;
-            this.cb_LoaiDocGia.SelectedValueChanged += new System.EventHandler(this.cb_LDG_SelectedValueChanged);
             // 
             // tb_Email
             // 
@@ -286,7 +281,6 @@
             this.dt_Ngaysinh.Name = "dt_Ngaysinh";
             this.dt_Ngaysinh.Size = new System.Drawing.Size(314, 30);
             this.dt_Ngaysinh.TabIndex = 9;
-            this.dt_Ngaysinh.ValueChanged += new System.EventHandler(this.dt_Ngaysinh_ValueChanged);
             // 
             // tb_User
             // 
@@ -399,7 +393,6 @@
             this.bt_TimKiem.Text = "Tìm kiếm";
             this.bt_TimKiem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_TimKiem.UseVisualStyleBackColor = true;
-            this.bt_TimKiem.Click += new System.EventHandler(this.bt_TimKiem_Click);
             // 
             // tb_NhapTT
             // 
@@ -551,7 +544,6 @@
             this.toolStripBt_XuatCSV.Name = "toolStripBt_XuatCSV";
             this.toolStripBt_XuatCSV.Size = new System.Drawing.Size(107, 28);
             this.toolStripBt_XuatCSV.Text = "Xuất CSV";
-            this.toolStripBt_XuatCSV.Click += new System.EventHandler(this.toolStripBt_XuatCSV_Click);
             // 
             // toolStripSeparator4
             // 
@@ -567,7 +559,6 @@
             this.toolStripBt_Reset.Name = "toolStripBt_Reset";
             this.toolStripBt_Reset.Size = new System.Drawing.Size(137, 28);
             this.toolStripBt_Reset.Text = "Reset dữ liệu";
-            this.toolStripBt_Reset.Click += new System.EventHandler(this.toolStripBt_Reset_Click);
             // 
             // toolStripSeparator5
             // 
@@ -583,7 +574,6 @@
             this.toolStripBt_Muon.Name = "toolStripBt_Muon";
             this.toolStripBt_Muon.Size = new System.Drawing.Size(122, 28);
             this.toolStripBt_Muon.Text = "Mượn sách";
-            this.toolStripBt_Muon.Click += new System.EventHandler(this.toolStripBt_Muon_Click);
             // 
             // toolStripSeparator6
             // 
@@ -599,7 +589,6 @@
             this.toolStrip_Tra.Name = "toolStrip_Tra";
             this.toolStrip_Tra.Size = new System.Drawing.Size(99, 28);
             this.toolStrip_Tra.Text = "Trả sách";
-            this.toolStrip_Tra.Click += new System.EventHandler(this.toolStrip_Tra_Click);
             // 
             // toolStrip
             // 
@@ -729,7 +718,6 @@
             this.InactiveGlowColor = System.Drawing.Color.White;
             this.Name = "frmTheDocGia";
             this.Text = "Thẻ độc giả";
-            this.Load += new System.EventHandler(this.frmTheDocGia_Load);
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).EndInit();
             this.navigationPane1.ResumeLayout(false);
             this.navigationPage2.ResumeLayout(false);

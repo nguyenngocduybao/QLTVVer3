@@ -52,7 +52,6 @@
             // 
             // BCSachTraTreDtosBindingSource
             // 
-            this.BCSachTraTreDtosBindingSource.DataSource = typeof(Data.Dtos.BCSachTraTreDtos);
             // 
             // label1
             // 
@@ -108,7 +107,6 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(179, 35);
             this.dateTimePicker1.TabIndex = 0;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // groupBox2
             // 
@@ -196,7 +194,6 @@
             this.Controls.Add(this.label1);
             this.Name = "frmReportPhieuTra";
             this.Text = "frmReportPhieuTra";
-            this.Load += new System.EventHandler(this.frmReportPhieuTra_Load);
             ((System.ComponentModel.ISupportInitialize)(this.BCSachTraTreDtosBindingSource)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

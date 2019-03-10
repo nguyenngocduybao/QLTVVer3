@@ -61,7 +61,6 @@
             this.tb_Nam.Name = "tb_Nam";
             this.tb_Nam.Size = new System.Drawing.Size(117, 25);
             this.tb_Nam.TabIndex = 4;
-            this.tb_Nam.TextChanged += new System.EventHandler(this.tb_Nam_TextChanged);
             // 
             // tb_Thang
             // 
@@ -70,7 +69,6 @@
             this.tb_Thang.Name = "tb_Thang";
             this.tb_Thang.Size = new System.Drawing.Size(117, 25);
             this.tb_Thang.TabIndex = 1;
-            this.tb_Thang.TextChanged += new System.EventHandler(this.tb_Thang_TextChanged);
             // 
             // label1
             // 
@@ -147,11 +145,9 @@
             this.btn_TaoBaoCao.Size = new System.Drawing.Size(91, 28);
             this.btn_TaoBaoCao.TabIndex = 35;
             this.btn_TaoBaoCao.Text = "Tạo báo cáo";
-            this.btn_TaoBaoCao.Click += new System.EventHandler(this.btn_TaoBaoCao_Click);
             // 
             // BaoCaoTinhHinhMuonSachDTOBindingSource
             // 
-            this.BaoCaoTinhHinhMuonSachDTOBindingSource.DataSource = typeof(Data.DTO.BaoCaoTinhHinhMuonSachDTO);
             // 
             // label2
             // 
@@ -234,7 +230,6 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "frmReportPhieuMuon";
             this.Text = "frmReportPhieuMuon";
-            this.Load += new System.EventHandler(this.frmReportPhieuMuon_Load);
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox3.ResumeLayout(false);

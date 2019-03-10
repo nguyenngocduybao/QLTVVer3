@@ -67,7 +67,6 @@
             this.dt_NgaySinh.Name = "dt_NgaySinh";
             this.dt_NgaySinh.Size = new System.Drawing.Size(340, 30);
             this.dt_NgaySinh.TabIndex = 22;
-            this.dt_NgaySinh.ValueChanged += new System.EventHandler(this.dt_NgaySinh_ValueChanged);
             // 
             // label1
             // 
@@ -86,7 +85,6 @@
             this.tb_TenTacGia.Name = "tb_TenTacGia";
             this.tb_TenTacGia.Size = new System.Drawing.Size(340, 30);
             this.tb_TenTacGia.TabIndex = 20;
-            this.tb_TenTacGia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_TenTacGia_KeyPress);
             // 
             // label2
             // 
@@ -111,7 +109,6 @@
             this.bt_CNDL.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.bt_CNDL.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_CNDL.UseVisualStyleBackColor = true;
-            this.bt_CNDL.Click += new System.EventHandler(this.bt_CNDL_Click);
             // 
             // frmThemTacGia
             // 

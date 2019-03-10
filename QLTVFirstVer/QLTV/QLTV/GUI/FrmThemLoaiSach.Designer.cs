@@ -62,7 +62,6 @@
             this.tb_ThemTheLoaiSach.Name = "tb_ThemTheLoaiSach";
             this.tb_ThemTheLoaiSach.Size = new System.Drawing.Size(248, 30);
             this.tb_ThemTheLoaiSach.TabIndex = 15;
-            this.tb_ThemTheLoaiSach.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_ThemTheLoaiSach_KeyPress);
             // 
             // label2
             // 

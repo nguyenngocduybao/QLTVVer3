@@ -16,12 +16,6 @@ namespace Desktop
         [STAThread]
         static void Main()
         {
-            Configuration config;
-            config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-            config.ConnectionStrings.ConnectionStrings["QuanLyThuVienEntities"].ConnectionString = "metadata=res://*/Model.QuanLyThuVienEntities.csdl|res://*/Model.QuanLyThuVienEntities.ssdl|res://*/Model.QuanLyThuVienEntities.msl;provider=System.Data.SqlClient;provider connection string=&quot;"  + "MultipleActiveResultSets = True; App = EntityFramework & quot;";
-            config.ConnectionStrings.ConnectionStrings["QuanLyThuVienEntities"].ProviderName = "System.Data.EntityClient";
-            config.Save(ConfigurationSaveMode.Modified);
-
             //var DBCS = ConfigurationManager.ConnectionStrings["QuanLyThuVienEntities"];
             //var writable = typeof(ConfigurationElement).GetField("_bReadOnly", BindingFlags.Instance | BindingFlags.NonPublic);
             //writable.SetValue(DBCS, false);
