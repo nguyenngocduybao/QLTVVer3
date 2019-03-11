@@ -718,6 +718,7 @@
             this.InactiveGlowColor = System.Drawing.Color.White;
             this.Name = "frmTheDocGia";
             this.Text = "Thẻ độc giả";
+            this.Load += new System.EventHandler(this.frmTheDocGia_Load);
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).EndInit();
             this.navigationPane1.ResumeLayout(false);
             this.navigationPage2.ResumeLayout(false);
