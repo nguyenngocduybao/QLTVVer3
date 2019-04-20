@@ -23,7 +23,6 @@ C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\obj\Debug\RdlCompil
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\obj\Debug\RdlCompile.compiled
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\obj\Debug\Desktop.exe
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\obj\Debug\Desktop.pdb
-C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\obj\Debug\QLTV.csprojResolveAssemblyReference.cache
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\Desktop.exe.config
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\Report\rpBaoCaoTraTre.rdlc
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\Report\rpTinhHinhMuonSach.rdlc
@@ -46,7 +45,6 @@ C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\DevExpres
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\DevExpress.RichEdit.v18.1.Core.dll
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\DevExpress.XtraTreeList.v18.1.dll
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\DevExpress.Images.v18.1.dll
-C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\EntityFramework.dll
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\DevExpress.Office.v18.1.Core.dll
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\DevComponents.DotNetBar2.xml
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\DevExpress.Data.v18.1.xml
@@ -59,12 +57,10 @@ C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\DevExpres
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\DevExpress.XtraPrinting.v18.1.xml
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\DevExpress.XtraScheduler.v18.1.xml
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\DevExpress.XtraScheduler.v18.1.Core.xml
-C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\DevExpress.RichEdit.v18.1.Core.xml
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\DevExpress.XtraTreeList.v18.1.xml
-C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\EntityFramework.xml
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\DevExpress.Office.v18.1.Core.xml
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
 C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
@@ -248,3 +244,6 @@ C:\Users\BenBacker\Documents\QLTVVer35\QLTVFirstVer\QLTV\QLTV\obj\Debug\QLTV.csp
 C:\Users\BenBacker\Documents\QLTVVer35\QLTVFirstVer\QLTV\QLTV\obj\Debug\Desktop.exe.licenses
 C:\Users\BenBacker\Documents\QLTVVer35\QLTVFirstVer\QLTV\QLTV\obj\Debug\RdlCompile.cache
 C:\Users\BenBacker\Documents\QLTVVer35\QLTVFirstVer\QLTV\QLTV\obj\Debug\RdlCompile.compiled
+C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\System.ValueTuple.dll
+C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\bin\Debug\System.ValueTuple.xml
+C:\Users\BenBacker\Documents\QLTVVer3\QLTVFirstVer\QLTV\QLTV\obj\Debug\QLTV.csprojResolveAssemblyReference.cache
